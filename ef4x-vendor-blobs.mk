@@ -103,4 +103,4 @@ PROPRIETARY_FILES := \
     lib/soundfx/libaudioeffectoffload.so
 
 PRODUCT_COPY_FILES += \
-    $(foreach f,$(PROPRIETARY_FILES),vendor/samsung/grandprimeve3g/proprietary/$(f):system/$(f))
+    $(foreach f,$(PROPRIETARY_FILES),vendor/walton/ef4x/proprietary/$(f):system/$(f))
