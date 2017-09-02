@@ -64,6 +64,43 @@ PROPRIETARY_FILES := \
 	vendor/lib/libffmpeg_utils.so \
 	vendor/lib/libswresample.so \
 	vendor/lib/libswscale.so \
-	vendor/vandroids4ptx/efs.img 
+	vendor/vandroids4ptx/efs.img \
+    bin/at_distributor \
+    bin/npsmobex \
+    bin/refnotify \
+    bin/engpc \
+    lib/libatparser.so \
+    bin/gpsd \
+    bin/gps.cer \
+    etc/gps.conf \
+    lib/hw/gps.default.so \
+    lib/liblcsagent.so \
+    lib/libboost.so \
+    lib/libfactoryutil.so \
+    lib/libomission_avoidance.so \
+    lib/libatchannel.so \
+    bin/rild_sprd \
+    bin/modemd \
+    bin/nvitemd \
+    bin/phoneserver \
+    bin/modem_control \
+    bin/ext_data.sh \
+    bin/ext_kill.sh \
+    bin/ext_symlink.sh \
+    bin/prepare_param.sh \
+    lib/libril.so \
+    lib/libreference-ril_sp.so \
+    lib/libsecril-client.so \
+    lib/libsecnativefeature.so \
+    lib/libomx_avcdec_hw_sprd.so \
+    lib/libomx_avcenc_hw_sprd.so \
+    lib/libomx_vpxdec_hw_sprd.so \
+    lib/libomx_m4vh263dec_hw_sprd.so \
+    lib/libomx_m4vh263enc_hw_sprd.so \
+    bin/sswap \
+    lib/lib_SoundAlive_play_ver125e.so \
+    lib/soundfx/libaudiosa_sec.so \
+    lib/soundfx/libaudioeffectoffload.so
+
 PRODUCT_COPY_FILES += \
     $(foreach f,$(PROPRIETARY_FILES),vendor/samsung/grandprimeve3g/proprietary/$(f):system/$(f))
